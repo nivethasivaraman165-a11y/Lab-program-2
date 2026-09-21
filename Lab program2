@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <!-- Text Field -->
+        Name:
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+        <!-- Password Field -->
+        Password:
+        <input type="password" placeholder="Enter password">
+        <br><br>
+        <!-- Radio Buttons -->
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+        <!-- Checkboxes -->
+        Skills:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+        <br><br>
+        <!-- Dropdown -->
+        Department:
+        <select>
+            <option>Select Department</option>
+            <option>B.Sc AI</option>
+            <option>B.Sc CS</option>
+            <option>BCA</option>
+        </select>
+        <br><br>
+        <!-- File Upload -->
+        Upload Resume:
+        <input type="file" onchange="img.src=window.URL.createObjectURL(this.files[0])">
+        <br><br>
+         <img id="img" width="200">
+        <br><br>
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
