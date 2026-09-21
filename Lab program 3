@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Registration Form</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Embedded CSS -->
+    <style>
+        h1{
+            color:green;
+            text-align:center;
+            font-family:Arial;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<h1>Student Registration Form</h1>
+<form>
+<input type="text" placeholder="Enter Name"><br><br>
+<input type="password" placeholder="Enter Password"><br><br>
+<select>
+<option>Department</option>
+<option>B.Sc AI</option>
+<option>BCA</option>
+<option>B.Sc CS</option>
+</select>
+<br><br>
+<input type="submit">
+</form>
+</div>
+</body>
+</html>
